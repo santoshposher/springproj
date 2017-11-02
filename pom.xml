@@ -74,12 +74,19 @@
 	<version>1.4</version>
 </dependency>
 
-<dependency>
+<!-- MySQL Server Libraries -->
+<!-- <dependency>
 	<groupId>mysql</groupId>
 	<artifactId>mysql-connector-java</artifactId>
 	<version>5.1.36</version>
-</dependency>
+</dependency> -->
 
+<!-- SQL Server 2012 and 2014 Libraries -->
+<dependency>
+     <groupId>com.microsoft.sqlserver</groupId>
+     <artifactId>sqljdbc4</artifactId>
+     <version>3.0</version>
+</dependency>
 
 <dependency>
 	<groupId>org.codehaus.jackson</groupId>
